@@ -57,7 +57,9 @@ def vie(req):
             return HttpResponse(jasdata)
         jasdata=JSONRenderer().render(serr.errors)
         return HttpResponse(jasdata)
-            
+    rees={'mes':'data dfj'}
+    jasdata=JSONRenderer().render(rees)
+    return HttpResponse(jasdata)       
         
       
 
