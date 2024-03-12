@@ -20,6 +20,6 @@ from api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('a/',views.viee),
-    path('',views.vie),
+    path('',views.viee),
+    path('abc',views.vie),
 ]
